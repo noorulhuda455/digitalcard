@@ -50,7 +50,7 @@ export default function App() {
         </a>
 
         <a
-          href="mailto:noorulhuda@pace.edu"
+          href="mailto:noor.huda2@pace.edu"
           className="hover:text-pink-400 transition-all text-3xl drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]"
         >
           <FaEnvelope />
