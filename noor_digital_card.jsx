@@ -5,21 +5,6 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt, FaGlobe } from 'react-icon
 export default function NoorDigitalCard() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-black via-gray-900 to-purple-950 text-white px-6">
-      {/* Profile Image */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        className="w-36 h-36 mb-6 rounded-full border-4 border-purple-500 shadow-[0_0_30px_rgba(168,85,247,0.5)] overflow-hidden"
-      >
-        {/* Replace this src with your own photo later */}
-        <img
-          src="https://via.placeholder.com/150"
-          alt="Noor Ul Huda"
-          className="w-full h-full object-cover"
-        />
-      </motion.div>
-
       {/* Name + Titles */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -46,7 +31,7 @@ export default function NoorDigitalCard() {
         className="flex gap-6 mt-8"
       >
         {/* Replace the # with your links later */}
-        <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-all text-2xl">
+        <a href="https://www.linkedin.com/in/noorulhuda92" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-all text-2xl">
           <FaLinkedin />
         </a>
         <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400 transition-all text-2xl">
