@@ -22,3 +22,17 @@ a:hover {
   filter: drop-shadow(0 0 4px rgba(236,72,153,0.6));
 }
 
+@keyframes softPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px rgba(236,72,153,0.4));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(236,72,153,0.8));
+    transform: scale(1.05);
+  }
+}
+
+.pulse-glow {
+  animation: softPulse 3s ease-in-out infinite;
+}

@@ -36,7 +36,7 @@ export default function App() {
             href="https://www.linkedin.com/in/noorulhuda92"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+            className="pulse-glow hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
           >
             <FaLinkedin />
           </a>
@@ -48,10 +48,10 @@ export default function App() {
         {/* GitHub */}
         <div className="group relative flex flex-col items-center">
           <a
-            href="https://github.com/noorulhuda"
+            href="https://github.com/noorulhuda455"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+            className="pulse-glow hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
           >
             <FaGithub />
           </a>
@@ -64,7 +64,7 @@ export default function App() {
         <div className="group relative flex flex-col items-center">
           <a
             href="mailto:noor.huda2@pace.edu"
-            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+            className="pulse-glow hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
           >
             <FaEnvelope />
           </a>
@@ -79,7 +79,7 @@ export default function App() {
             href="https://drive.google.com/file/d/1A5h0L0XBFuHfHOmu3xnJfEmDWd1SCFK4/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+            className="pulse-glow hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
           >
             <FaFileAlt />
           </a>
@@ -94,7 +94,7 @@ export default function App() {
             href="https://www.canva.com/design/DAGc-3xsUEA/S0BUrgQm1WkmWkT2YVHLNQ/view?utm_content=DAGc-3xsUEA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h240acdd2ea"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+            className="pulse-glow hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
           >
             <FaGlobe />
           </a>
