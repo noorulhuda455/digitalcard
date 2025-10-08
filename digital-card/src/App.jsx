@@ -23,56 +23,85 @@ export default function App() {
         </p>
       </motion.div>
 
-      {/* Icons */}
+      {/* Icons with Tooltips */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.6, duration: 1 }}
-        className="flex gap-6 mt-8"
+        className="flex flex-wrap justify-center gap-8 mt-10"
       >
-        {/* Add your links below */}
-        <a
-          href="https://www.linkedin.com/in/noorulhuda92"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-pink-400 transition-all text-3xl drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]"
-        >
-          <FaLinkedin />
-        </a>
+        {/* LinkedIn */}
+        <div className="group relative flex flex-col items-center">
+          <a
+            href="https://www.linkedin.com/in/noorulhuda92"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+          >
+            <FaLinkedin />
+          </a>
+          <span className="absolute bottom-[-1.8rem] opacity-0 group-hover:opacity-100 text-xs bg-gray-800 text-white px-2 py-1 rounded-md transition-opacity duration-300">
+            LinkedIn
+          </span>
+        </div>
 
-        <a
-          href="https://github.com/noorulhuda"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-pink-400 transition-all text-3xl drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]"
-        >
-          <FaGithub />
-        </a>
+        {/* GitHub */}
+        <div className="group relative flex flex-col items-center">
+          <a
+            href="https://github.com/noorulhuda"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+          >
+            <FaGithub />
+          </a>
+          <span className="absolute bottom-[-1.8rem] opacity-0 group-hover:opacity-100 text-xs bg-gray-800 text-white px-2 py-1 rounded-md transition-opacity duration-300">
+            GitHub
+          </span>
+        </div>
 
-        <a
-          href="mailto:noor.huda2@pace.edu"
-          className="hover:text-pink-400 transition-all text-3xl drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]"
-        >
-          <FaEnvelope />
-        </a>
+        {/* Email */}
+        <div className="group relative flex flex-col items-center">
+          <a
+            href="mailto:noor.huda2@pace.edu"
+            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+          >
+            <FaEnvelope />
+          </a>
+          <span className="absolute bottom-[-1.8rem] opacity-0 group-hover:opacity-100 text-xs bg-gray-800 text-white px-2 py-1 rounded-md transition-opacity duration-300">
+            Email
+          </span>
+        </div>
 
-        <a
-          href="https://drive.google.com/file/d/1A5h0L0XBFuHfHOmu3xnJfEmDWd1SCFK4/view?usp=share_link"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-pink-400 transition-all text-3xl drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]"
-        >
-          <FaFileAlt />
-        </a>
+        {/* Resume */}
+        <div className="group relative flex flex-col items-center">
+          <a
+            href="https://drive.google.com/file/d/1A5h0L0XBFuHfHOmu3xnJfEmDWd1SCFK4/view?usp=share_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+          >
+            <FaFileAlt />
+          </a>
+          <span className="absolute bottom-[-1.8rem] opacity-0 group-hover:opacity-100 text-xs bg-gray-800 text-white px-2 py-1 rounded-md transition-opacity duration-300">
+            Resume
+          </span>
+        </div>
 
-        <a
-          href="https://www.canva.com/design/DAGc-3xsUEA/S0BUrgQm1WkmWkT2YVHLNQ/view?utm_content=DAGc-3xsUEA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h240acdd2ea"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-pink-400 transition-all text-3xl drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]"
-        >
-          <FaGlobe />
-        </a>
+        {/* Portfolio */}
+        <div className="group relative flex flex-col items-center">
+          <a
+            href="https://www.canva.com/design/DAGc-3xsUEA/S0BUrgQm1WkmWkT2YVHLNQ/view?utm_content=DAGc-3xsUEA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h240acdd2ea"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
+          >
+            <FaGlobe />
+          </a>
+          <span className="absolute bottom-[-1.8rem] opacity-0 group-hover:opacity-100 text-xs bg-gray-800 text-white px-2 py-1 rounded-md transition-opacity duration-300">
+            Portfolio
+          </span>
+        </div>
       </motion.div>
 
       {/* Footer */}
