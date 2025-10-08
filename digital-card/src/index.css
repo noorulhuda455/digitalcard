@@ -17,3 +17,7 @@ a:hover {
   transform: scale(1.1);
   text-shadow: 0 0 10px #ec4899;
 }
+
+.group:hover span {
+  filter: drop-shadow(0 0 4px rgba(236,72,153,0.6));
+}
