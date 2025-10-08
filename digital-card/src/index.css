@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* extras for that luxe glow */
+body {
+  background-color: #000;
+  color: white;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 10px #ec4899;
+}
