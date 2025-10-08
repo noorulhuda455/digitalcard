@@ -57,7 +57,7 @@ export default function App() {
         </a>
 
         <a
-          href="https://drive.google.com/your-resume-link"
+          href="https://drive.google.com/file/d/1A5h0L0XBFuHfHOmu3xnJfEmDWd1SCFK4/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-pink-400 transition-all text-3xl drop-shadow-[0_0_8px_rgba(236,72,153,0.6)]"
