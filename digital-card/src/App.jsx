@@ -63,7 +63,7 @@ export default function App() {
         {/* Email */}
         <div className="group relative flex flex-col items-center">
           <a
-            href="mailto:noor.huda2@pace.edu"
+            href="mailto:5281noor@gmail.com"
             className="pulse-glow hover:text-pink-400 text-3xl transition-all duration-300 transform hover:-translate-y-1 drop-shadow-[0_0_10px_rgba(236,72,153,0.5)]"
           >
             <FaEnvelope />
